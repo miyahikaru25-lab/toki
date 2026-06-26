@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>製品ピックアップ - TOKI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300&family=Noto+Serif+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo"><img src="img/toki.png" alt="刻"></a>
+  <button class="hamburger" aria-label="メニューを開く" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <nav><ul class="site-nav">
+    <li><a href="about.html">刻について</a></li>
+    <li><a href="news.html">お知らせ</a></li>
+    <li><a href="pickup.html" class="active">製品ピックアップ</a></li>
+    <li><a href="products.html">製品一覧</a></li>
+    <li><a href="contact.html">お問い合わせ</a></li>
+  </ul></nav>
+</header>
+
+<!-- PAGE TITLE (left-aligned) -->
+<div class="page-header-center reveal">
+  <div class="page-title">製品ピックアップ</div>
+    <div class="gold-line-center"></div>
+  <div class="gold-rule"></div>
+</div>
+
+<div class="pickup-content">
+
+  <!-- 暁 -->
+  <div class="pickup-item reveal">
+    <div class="pickup-item-img"><img src="img/akatsuki.png" alt="暁"></div>
+    <div class="pickup-item-text">
+      <p class="pickup-name">「 暁 」</p>
+      <p class="pickup-romaji">- AKATSUKI -</p>
+      <div class="pickup-gold-bar"></div>
+      <p class="pickup-copy">一日の始まりのような<br>透明感とキレ。</p>
+      <div class="pickup-specs">
+        <div class="spec-row"><span class="spec-key">種別</span><span class="spec-val">純米大吟醸</span></div>
+        <div class="spec-row"><span class="spec-key">精米歩合</span><span class="spec-val">38%</span></div>
+        <div class="spec-row"><span class="spec-key">アルコール度数</span><span class="spec-val">16度</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 宵 -->
+  <div class="pickup-item reveal">
+    <div class="pickup-item-img"><img src="img/yoi.png" alt="宵"></div>
+    <div class="pickup-item-text">
+      <p class="pickup-name">「 宵 」</p>
+      <p class="pickup-romaji">- YOI -</p>
+      <div class="pickup-gold-bar"></div>
+      <p class="pickup-copy">深まる夜に寄り添う、<br>芳醇なコク。</p>
+      <div class="pickup-specs">
+        <div class="spec-row"><span class="spec-key">種別</span><span class="spec-val">純米大吟醸</span></div>
+        <div class="spec-row"><span class="spec-key">精米歩合</span><span class="spec-val">45%</span></div>
+        <div class="spec-row"><span class="spec-key">アルコール度数</span><span class="spec-val">17度</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 朔 -->
+  <div class="pickup-item reveal">
+    <div class="pickup-item-img"><img src="img/saku.png" alt="朔"></div>
+    <div class="pickup-item-text">
+      <p class="pickup-name">「 朔 」</p>
+      <p class="pickup-romaji">- SAKU -</p>
+      <div class="pickup-gold-bar"></div>
+      <p class="pickup-copy">新月が描く、新たな始まり。<br>まっさらに澄み切った、無垢な一滴。</p>
+      <div class="pickup-specs">
+        <div class="spec-row"><span class="spec-key">種別</span><span class="spec-val">純米大吟醸</span></div>
+        <div class="spec-row"><span class="spec-key">精米歩合</span><span class="spec-val">35%</span></div>
+        <div class="spec-row"><span class="spec-key">アルコール度数</span><span class="spec-val">15度</span></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="sell-link-wrap reveal">
+  <a href="#" class="sell-link">→ 販売ページへ</a>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-body">
+    <a href="index.html" class="footer-logo"><img src="img/toki2.png" alt="刻"></a>
+    <nav class="footer-nav-cols">
+      <ul class="footer-nav-col">
+        <li><a href="about.html">刻について</a></li>
+        <li><a href="pickup.html">製品ピックアップ</a></li>
+        <li><a href="products.html">製品一覧</a></li>
+      </ul>
+      <ul class="footer-nav-col">
+        <li><a href="news.html">お知らせ</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+    <div class="footer-social">
+      <a href="#"><img src="img/Instagram_Glyph_Black.png" alt="instagram"></a>
+      <a href="#"><img class="footer-y" src="img/yt_icon_almostblack_digital.png" alt="youtube"></a>
+      <a href="#"><img src="img/logo-black.png" alt="x"></a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-legal">
+      <a href="#">会社概要</a>
+      <a href="#">プライバシーポリシー</a>
+      <a href="#">特定商取引法について</a>
+    </div>
+  </div>
+</footer>
+
+<script src="hamburger.js"></script>
+<script src="animations.js"></script>
+</body>
+</html>
