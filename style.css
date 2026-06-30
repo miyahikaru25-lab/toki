@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Noto+Serif+JP:wght@300;400;500;700;900&display=swap');
 
-/* ================================
-   DESIGN TOKENS (from XD analysis)
-   bg: #0e0d08, gold: #c1ab78
-   text: #fff0d8, muted: #c7c7c7
-   cream footer: #f5f0e6
-   ================================ */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { font-size: 16px; }
 body {
