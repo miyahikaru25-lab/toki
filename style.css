@@ -13,9 +13,7 @@ a { color: inherit; text-decoration: none; }
 img { display: block; max-width: 100%; }
 button { font-family: inherit; }
 
-/* ================================
-   HEADER
-   ================================ */
+/* HEADER */
 .site-header {
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -46,9 +44,7 @@ button { font-family: inherit; }
 .site-nav a:hover,
 .site-nav a.active { opacity: 1; }
 
-/* ================================
-   FOOTER
-   ================================ */
+/* FOOTER */
 .site-footer {
   background: #f5f0e6;
   color: #1a1a14;
@@ -179,9 +175,7 @@ button { font-family: inherit; }
   letter-spacing: 0.04em;
 }
 
-/* ================================
-  TOP PAGE — HERO
-   ================================ */
+/* TOP PAGE — HERO */
 .hero {
   position: relative;
   width: 100%;
@@ -256,9 +250,7 @@ button { font-family: inherit; }
   z-index: 2;
 }
 
-/* ================================
-   SECTION SHARED
-   ================================ */
+/* SECTION SHARED */
 .section-wrap {
   max-width: 1120px;
   margin: 0 auto;
@@ -291,9 +283,7 @@ button { font-family: inherit; }
   opacity: 0.5;
 }
 
-/* ================================
-   TOP PAGE — NEWS
-   ================================ */
+/* TOP PAGE — NEWS */
 .news-section {
   padding: 100px 0 80px;
 }
@@ -322,9 +312,7 @@ button { font-family: inherit; }
   color: #fff0d8;
 }
 
-/* ================================
-   TOP PAGE — POPULAR PRODUCTS
-   ================================ */
+/* TOP PAGE — POPULAR PRODUCTS */
 .popular-section { padding: 60px 0 80px; }
 .product-grid-3 {
   display: grid;
@@ -355,9 +343,7 @@ button { font-family: inherit; }
   padding-bottom: 2px;
 }
 
-/* ================================
-   TOP PAGE — BRAND COLLAGE
-   ================================ */
+/* TOP PAGE — BRAND COLLAGE */
 .brand-collage {
   position: relative;
   width: 100%;
@@ -401,9 +387,7 @@ button { font-family: inherit; }
   padding-bottom: 3px;
 }
 
-/* ================================
-   INNER PAGE HEADER AREA
-   ================================ */
+/* INNER PAGE HEADER AREA */
 
 /* centered title (お知らせ, お問い合わせ, 製品一覧) */
 .page-header-center {
@@ -420,9 +404,7 @@ button { font-family: inherit; }
   margin-bottom: -2px;
 }
 
-/* ================================
-  刻について
-   ================================ */
+/* 刻について */
 .about-content { padding: 60px 0 80px; }
 
 .about-catch {
@@ -489,9 +471,7 @@ button { font-family: inherit; }
   }
 }
 
-/* ================================
-   製品ピックアップ
-   ================================ */
+/* 製品ピックアップ */
 .pickup-content { padding: 50px 0 60px; }
 .pickup-item {
   max-width: 1120px;
@@ -560,9 +540,7 @@ button { font-family: inherit; }
   padding-bottom: 3px;
 }
 
-/* ================================
-   製品一覧
-   ================================ */
+/* 製品一覧 */
 .products-list-content { padding: 50px 0 80px; }
 .products-grid-2 {
   max-width: 1120px;
@@ -734,9 +712,7 @@ button { font-family: inherit; }
   color: #fff0d8;
 }
 
-/* ================================
-   お問い合わせ
-   ================================ */
+/* お問い合わせ */
 .contact-content { padding: 40px 0 80px; }
 .contact-form-wrap {
   max-width: 460px;
@@ -795,9 +771,7 @@ button { font-family: inherit; }
   letter-spacing: 0.2em;
 }
 
-/* ================================
-   年齢確認 (AGE GATE on products page)
-   ================================ */
+/* 年齢確認 (AGE GATE on products page) */
 .age-gate {
   position: fixed;
   inset: 0;
@@ -861,9 +835,7 @@ button { font-family: inherit; }
   border-bottom-color: rgba(193,171,120,0.4);
 }
 
-/* ================================
-   HAMBURGER MENU
-   ================================ */
+/* HAMBURGER MENU */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -987,7 +959,7 @@ button { font-family: inherit; }
   transform: translateY(0);
 }
 
-/* ホバーエフェクト：写真・カードが軽く持ち上がる */
+/* ホバーエフェクト */
 .product-thumb,
 .pickup-item-img,
 .about-img,
@@ -1023,7 +995,7 @@ button { font-family: inherit; }
   background: rgba(255,240,216,0.02);
 }
 
-/* リンクの下線が伸びるホバー（金色アクセントリンク） */
+/* リンクの下線が伸びるホバー */
 .pickup-link,
 .about-link,
 .sell-link {
@@ -1049,7 +1021,7 @@ button { font-family: inherit; }
   transform: scaleX(1);
 }
 
-/* ナビゲーションリンクのホバー：下にうっすら金線 */
+/* ナビゲーションリンクのホバー */
 .site-nav a {
   position: relative;
   transition: opacity 0.3s ease;
@@ -1070,9 +1042,7 @@ button { font-family: inherit; }
   transform: scaleX(1);
 }
 
-/* ================================
-   HERO INTRO ANIMATION（初期表示時）
-   ================================ */
+/* HERO INTRO ANIMATION */
 .hero-img {
   opacity: 0;
   transform: scale(1.08);
